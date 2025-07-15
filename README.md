@@ -24,8 +24,8 @@ Simular uma invasão a um serviço Redis mal configurado, exposto publicamente e
 
 A falha de segurança está relacionada à **exposição pública do serviço Redis**, sem autenticação e sem restrição de IPs. Isso permite que qualquer ator externo consiga:
 
-- 📥 Consultar chaves (GET)
-- 📝 Inserir dados (SET)
-- ❌ Deletar entradas (DEL)
+- Consultar chaves (GET)
+-  Inserir dados (SET)
+-  Deletar entradas (DEL)
 
 A vulnerabilidade demonstra como um pequeno descuido na configuração pode levar a **vazamento, corrupção e perda de integridade dos dados** em uma aplicação.
